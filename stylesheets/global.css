@@ -1,0 +1,327 @@
+/* ### general ### */
+* { margin: 0px; padding: 0px; }
+html, body { font-family: 'Droid Sans', sans-serif; font-size: 14px; color: #484848; }
+input, select, textarea { font-family: 'Droid Sans', sans-serif; font-size: 12px; color: #484848; transition: all 0.5s ease-in-out; -webket-transition: all 0.5s ease-in-out; }
+ul { list-style: none; }
+strong { font-weight: 700; }
+h1,h2,h3,h4,h5,h6 { font-family: 'Montserrat', sans-serif; font-weight: 700; }
+.pl { padding-left: 0; }
+.btn-danger { border: 2px solid #f03c3c; background: #f03c3c; }
+.btn-danger:hover { border: 2px solid #fff; background: none; }
+.over_green { height: 100%; position: absolute; right: 0; top: 0; display: block; width: 336px; background: url('../images/gree_over.png') right top no-repeat; }
+.form-control { height: 54px; border: 1px solid #dcdada; border-radius: 0; -webkit-border-radius: 0; box-shadow: none; -webkit-box-shadow: none; }
+a, button { transition: all 0.5s ease-in-out; -webket-transition: all 0.5s ease-in-out; }
+/* ### wrapper ### */
+#wrapper { position: relative; display: block; width: 100%; min-height: 100%; }
+
+/* ### main container ### */
+#mainCntr { }
+
+	/* ### header container ### */
+	#headerCntr { padding: 6px 0 0; position: relative; }
+	#headerCntr .headtop { }
+	#headerCntr .logo { margin-top: 7px; display: block; }
+	
+		/* ### toplink box ### */
+		.toplinkBox li { padding-left: 5px; color: #c9c8c8; display: inline; font-size: 12px; font-family: 'Montserrat', sans-serif; }
+		.toplinkBox li a { color: #606060; }
+		.toplinkBox { }
+
+		/* ### menu box ### */
+		.menuBox li { padding: 0 33px; display: inline; font-size: 15px; font-family: 'Montserrat', sans-serif; }
+		.menuBox .navbar-default li > a { padding: 15px 0 11px; display: inline-block; color: #000; }
+		.menuBox .navbar-default li > a:hover { color: #5cb45f; text-decoration: none; }
+		.menuBox { border-top: 1px solid #dcd9d9; }
+		.menuBox li:first-child{ padding-left: 0; }
+		.menuBox li:last-child { padding-right: 0; }
+		.menuBox ul { margin-bottom: 0; }
+		.menuBox .navbar-collapse { padding: 0; }
+		.menuBox .navbar { border: 0; margin: 0; background: none; min-height: 0; }
+
+		/* ### banner box ### */
+		.bannerBox { height: 157px; position: relative; }
+		.bannerBox img { width: 100%; position: absolute; left: 0; top: 0; height: 100%; }
+		.bannerBox h2 { font-size: 22px; line-height: 26px; }
+		.bannerBox .container { padding-top: 40px; position: relative; z-index: 1; }
+
+		/* ### np box ### */
+		.npBox .breadcrumb { padding-bottom: 20px; margin-bottom: 0; background: none; }
+		.npBox li { font-size: 12px; color: #797878; }
+		.npBox { padding-top: 10px; }
+		.npBox li a { color: #3498db; text-decoration: underline; }
+		.npBox li a:hover { text-decoration: none; }
+
+		/* ### address box ### */
+		.addressBox .block { padding: 10px 30px 12px; margin-bottom: 22px; background: #f2f2f2; }
+		.addressBox { padding-left: 20px; }
+		.addressBox h4 { padding-bottom: 18px; color: #000; font-size: 16px; }
+		.addressBox address { line-height: 22px; }
+		.addressBox address a { color: #3498db; text-decoration: underline; }
+		.addressBox address a:hover { text-decoration: none; }
+
+		/* ### list box ### */
+		.listBox .block { padding: 16px 22px 12px; margin: 10px 0 22px 45px; color: #fff; background: #2ed271; }
+		.listBox .block.blue { background: #3498db;  }
+		.listBox li a { color: #fff; text-decoration: underline; }
+		.listBox li a:hover { text-decoration: none; }
+		.listBox li { padding: 5px 0 6px 0; }
+		.listBox .block.blue { color: #fff; color: #dbdada; }
+		.listBox h4 { color: #fff; }
+
+		/* ### stayfit box ### */
+		.stayfitBox .block { padding-bottom: 10px; width: 65%; }
+		.stayfitBox .block p { padding: 0; font-size: 16px; line-height: 24px; }
+		.stayfitBox .well { padding: 15px; padding-right: 0; border: 0; border-radius: 0; -webkit-border-radius: 0; box-shadow: none; -webkit-box-shadow: none; }
+		.stayfitBox p { padding: 10px 10px 0 0; line-height: 22px; }
+		.stayfitBox .no-bg { background: none; }
+		.stayfitBox .image { text-align: right; }
+		.stayfitBox .play { width: 35px; height: 35px; display: block; position: absolute; margin: -17px 0 0 -17px; left: 50%; top: 50%; background: url('../images/play.png') left top no-repeat; }
+		.stayfitBox .image a { position: relative; display: block; }
+		.stayfitBox .btn { padding: 11px; padding-right: 44px; font-size: 16px; margin-top: 30px; border: 2px solid #f03c3c; background: #f03c3c url('../images/arrow.png') right center no-repeat; }
+		.stayfitBox .btn:hover { background-color: #ba3d3d; }
+		.stayfitBox { padding-bottom: 53px; }
+		
+		/* ### num box ### */
+		.numBox address { padding: 45px 70px 11px 0; margin: 0; background: url('../images/num.png') right bottom no-repeat; }
+		.numBox address span { display: block; }
+		.numBox a { text-decoration: underline; color: #3498db; }
+
+		/* ### blogdetail box ### */
+		.blogdetailBox { padding-bottom: 20px; }
+		.blogdetailBox h5 { font-weight: 400; color: #797878; }
+		.blogdetailBox h5 span { padding-left: 12px; font-family: 'Droid Sans', sans-serif; font-size: 14px; }
+		.blogdetailBox h5 a { color: #3498db; text-decoration: underline; }
+		.blogdetailBox h5 a:hover { text-decoration: none; }
+		.blogdetailBox .head { padding-bottom: 32px; }
+		.blogdetailBox p { padding: 23px 0 0; margin: 0; line-height: 22px; }
+		.blogdetailBox .block { padding: 13px 25px 30px; margin-top: 27px; background: #f2f2f2; }
+		.blogdetailBox .block p { padding-top: 10px; }
+		.blogdetailBox form { padding-top: 12px; }
+		.blogdetailBox .block .form-control { width: 245px; margin-right: 15px; float: left; }
+		.blogdetailBox .btn { height: 48px; font-size: 16px; margin-top: 3px; }
+		.blogdetailBox .quote { padding-top: 23px; }
+		.blogdetailBox .quote label { padding-bottom: 5px; font-weight: 400; }
+		.blogdetailBox .quote h4 { padding-bottom: 20px; }
+		.blogdetailBox .quote .row { padding-bottom:2px; }
+		.blogdetailBox textarea { height: 230px; }
+		.blogdetailBox .quote .btn { padding-right: 40px; font-size: 14px; margin-top: 20px; border: 2px solid #f03c3c; background: #f03c3c url('../images/arrow.png') right center no-repeat; }
+		.blogdetailBox .text { }
+		.blogdetailBox .text p { padding-top: 0; font-size: 16px; line-height: 24px; }
+		.blogdetailBox .btn:hover { border: 2px solid #2ed271; background-color: #2ed271; }
+
+		/* ### fitblock box ### */
+		.fitblockBox { padding: 53px 0 55px; }
+		.fitblockBox .block { position: relative; }
+		.fitblockBox .text { padding: 1px 23px; color: #fff; position: absolute; height: 100%; width: 238px; left: 0; top: 0; background: url('../images/blue_bg.png') right top no-repeat; }
+		.fitblockBox h3 { padding-bottom: 2px; }
+		.fitblockBox p { padding-right: 10px; font-size: 15px; line-height: 24px; }
+		.fitblockBox p a { color: #fff; text-decoration: underline; }
+		.fitblockBox p a:hover { text-decoration: none; }
+
+		/* ### session box ### */
+		.sessionBox { padding: 22px 0 0 0; width: 442px; }
+		.sessionBox h3 { padding-bottom: 4px; font-size: 22px; color: #fff; line-height: 30px; }
+		.sessionBox p { font-size: 16px; line-height: 24px; color: #fff; }
+		.sessionBox input, .sessionBox button { height: 49px; font-size: 16px; }
+		.sessionBox .form-control:focus { box-shadow: 1px 1px 5px rgba(51,51,51,.5); -webkit-box-shadow: 1px 1px 5px rgba(51,51,51,.5); }
+		.sessionBox form { padding-top: 13px; }
+
+		/* ### feedback box ### */
+		.feedbackBox { padding: 49px 0 53px; background: #f2f2f2; }
+		.feedbackBox img { border-radius: 50%; border: 1px solid #dedcdc; position: absolute; left: -32px; top: -7px; }
+		.feedbackBox .block { padding: 10px 20px 24px 52px; margin: 0 15px 0 30px; position: relative; border: 1px solid #dedcdc; background: #fff; }
+		.feedbackBox h4 { padding-bottom: 7px; font-size: 16px; line-height: 22px; font-weight: 400; }
+
+		/* ### title box ### */
+		.titleBox { padding: 34px 0 40px; color: #fff; background: #3498db; }
+		.titleBox p { padding: 12px 0 26px; line-height: 22px; width: 60%; margin: auto; }
+		.titleBox .btn-danger { padding-right: 40px; border: 2px solid #f03c3c; background: #f03c3c url('../images/arrow.png') right center no-repeat; }
+		.titleBox .btn { margin: 0 15px; }
+		.titleBox .btn { padding: 12px; padding-right: 40px; }	
+		.titleBox .btn-default { padding-right: 50px; border: 2px solid #fff; color: #fff; background: url('../images/icon.png') right center no-repeat; }
+		.titleBox .btn-danger:hover { border: 2px solid #fff; background-color: transparent; }
+		.titleBox .btn-default:hover { border: 2px solid #f03c3c; background-color: #f03c3c; }
+
+		/* ### text box ### */
+		.textBox { padding: 24px 60px 0 0; min-height: 336px; width: 742px; }
+		.full_blue .textBox { padding-bottom: 45px; min-height: 0;}
+		.textBox h3 { padding-bottom: 4px; font-size: 22px; }
+		.textBox p { font-size: 16px; line-height: 24px; }
+		.textBox ul { padding: 12px 28px; }
+		.textBox li { padding-left: 27px; line-height: 24px; font-size: 16px; background: url('../images/tick.png') left 3px no-repeat; }
+		#coaches .textBox { padding: 40px 20px 0 0; width: 584px; }
+		#coaches .textBox p { padding-top: 12px; line-height: 22px; font-size: 14px; }
+
+		/* ### workshop box ### */
+		.workshopBox { padding: 40px 60px; padding-right: 0; color: #fff; width: 640px; position: relative; z-index: 1; }
+		.workshopBox address { padding: 12px 0 15px; margin-bottom: 0; float: left; width: 42%; line-height: 22px; }
+		.workshopBox address strong { display: block; }
+		.workshopBox address span { width: 250px; float: left; display: block; }
+		.workshopBox .icon { padding: 7px 0 0 24px; background: url('../images/loc.png') left top no-repeat; }
+		.workshopBox .topgap { padding-top: 30px; }
+		.workshopBox .link { padding-top: 23px; }
+		.workshopBox .btn-danger { padding: 12px; }
+		.workshopBox span { padding-left: 10px; display: inline; vertical-align: middle; }
+		.workshopBox span a { color: #fff; text-decoration: underline; }
+		.workshopBox span a:hover { text-decoration: none; }
+
+		/* ### blog box ### */
+		.blogBox { padding: 36px 0 0; }
+		.blogBox h5 { padding-top: 	8px; margin-bottom: 5px; }
+		.blogBox span { display: block; font-size: 13px; color: #797878; font-weight: 400; }
+		.blogBox img { margin: 21px 0 13px; }
+		.blogBox p { padding: 0 20px 0 0; margin-bottom: 4px; line-height: 22px; }
+		.blogBox a { text-decoration: underline; margin-top: 5px; color: #3498db; }
+		.blogBox a:hover { text-decoration: none; }
+		.blogBox .block { margin-bottom: 11px; }
+
+	/* ### content container ### */
+	#contentCntr { padding-bottom: 20px; width: 100%; }
+	#contentCntr .full_bg { background: #f6f9fa url('../images/main_img.jpg') right top no-repeat; }
+	#contentCntr #info { width: 100%; background: #2ed271; }
+	#contentCntr .work_shop { position: relative; height: 360px; }
+	#contentCntr .work_shop .work_img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+	#contentCntr #coaches { background: #f2f2f2; }
+	#contentCntr #coaches .full_bg { background: none; }
+	#contentCntr .work_shop .arrow { display: block; margin-top: -13px; width: 32px; height: 65px; z-index: 2; position: absolute; left: 0; top: 50%; background: url('../images/arrow1.png') left top no-repeat;  } 
+	#contentCntr #info.full_blue .full_bg { color: #fff; background: #3498db; }
+	#contentCntr #info.full_blue .sessionBox { padding-top: 90px; }
+
+	/* ### footer container ### */
+	#footerCntr { padding: 0; width: 100%; background: #a1a194; }
+
+		/* ### footer box ### */
+		.footerBox { padding: 12px 0; }
+		.footerBox li { padding-right: 20px; color: #fff; display: inline; }
+		.footerBox li a { display: inline-block; color: #fff; }
+		.footerBox span { color: #fff; }
+		.footerBox ul { margin: 0; }
+
+		/* ### link box ### */
+		.linkBox { padding: 0; width: 100%; border-bottom: 1px solid #c0c0b6; color: #fff; }
+		.linkBox address { padding-bottom: 12px; line-height: 22px; }
+		.linkBox div.pull-left { padding: 60px 0 0 4px; width: 320px }
+		.linkBox img { margin: 0 53px 0 20px; }
+		.linkBox a { color: #fff; text-decoration: underline; }
+		.linkBox a:hover { text-decoration: none; }
+		.linkBox li a { padding-left: 25px; background: url('../images/fb.png') left top no-repeat; }
+		.linkBox li { padding-bottom: 7px; }
+		.linkBox li.tweet a { background: url('../images/tweet.png') left 2px no-repeat; }
+		.linkBox li a:hover { background-position: 0 -22px; } 
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (min-width: 1200px) {
+		
+		.container { width: 1230px !important; }
+		}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 992px) and (max-width: 1199px) {
+		
+		.menuBox li { padding: 0 10px; }
+		.textBox { width: 553px; }
+		.textBox h3, .sessionBox h3 { margin-top: 10px; }
+		#coaches .textBox { width: 455px; }
+		#coaches .textBox { padding-top: 20px; }
+		.workshopBox { padding-left: 40px; padding-top: 20px; width: 465px; }
+		#coaches .textBox p { padding-top: 5px; }
+		#contentCntr .work_shop .arrow { margin-top: -30px; }
+		.sessionBox { width: 84%; }
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+		.menuBox li { padding: 0 6px; font-size: 12px; }
+		.textBox { padding: 10px 70px 10px 0;; width: 84%; }
+		.textBox h3, .sessionBox h3 { font-size: 18px; margin: 0 0 5px; line-height: 22px; }
+		.sessionBox { padding-top: 10px; }
+		.textBox ul { padding: 5px; margin: 0; }
+		.textBox li { padding-bottom: 5px; font-size: 15px; line-height: 20px; } 
+		.textBox p, .sessionBox p { font-size: 15px; line-height: 20px; }
+		.fitblockBox .text { padding: 0 7px; width: 175px; }
+		.feedbackBox .block { padding-left: 40px; margin: 0 10px; }
+		.titleBox p { width: 100%; }
+		#coaches .textBox { padding: 0; width: 340px; }
+		#coaches .textBox p { padding: 0; margin-bottom: 5px; }
+		#coaches .textBox h4 { margin: 10px 0 5px; }
+		.fitblockBox h3 { margin: 5px 0 5px; font-size: 15px; line-height: 18px; }
+		.fitblockBox .text p { margin-bottom: 2px; line-height: 16px; font-size: 13px; }
+		.sessionBox { width: 94%; }
+		.workshopBox { padding: 10px 25px; } 
+		.workshopBox h4 { margin-top: 0; }
+		.workshopBox { width: 360px; }
+		.workshopBox address { width: 100%; }
+		.toplinkBox li { font-size: 11px; padding: 0px; }
+		.workshopBox .topgap { padding: 0; } 
+		.linkBox div.pull-left { width: 200px; } 
+		.footerBox li { padding-right: 10px; }
+		.stayfitBox .block { width: 90%; }
+		.stayfitBox .image div { margin-bottom: 10px; }
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+		.toplinkBox { display: none; }
+		.numBox address { padding: 30px 0 0; background: none; }
+		#headerCntr .logo { margin-bottom: 10px; }
+		.menuBox .sr-only { position: absolute; clip: rect(auto, auto, auto, auto); display: block; width: auto; height: auto; left: 40px; top: 7px; color: #000; margin: 0; }
+		.menuBox .navbar-default .navbar-toggle { border: 0; width: 90px; position: relative; }
+		.menuBox .navbar-toggle { color: #000; float: none; }
+		.menuBox .navbar-default { border-bottom: 1px solid #dcd9d9; }
+		.menuBox .navbar-default .navbar-toggle .icon-bar { background: #000; }
+		.menuBox li:first-child, .menuBox li { padding: 0 0; }
+		.menuBox .navbar-default li > a { padding: 5px 0; border-top: 1px solid #dcd9d9; display: block; }
+		.menuBox .navbar-default li:first-child > a { border: 0; }
+		.menuBox .navbar-collapse { padding: 0 15px; border: 0; }
+		.menuBox li.hide { display: block !important; }
+		.sessionBox { padding: 10px 0 30px; width: 100%; }
+		.menuBox li { width: 100%; display: block; }
+		#contentCntr .full_bg { background: none; }
+		#contentCntr #info { background: none; }
+		.textBox { padding: 0; min-height: 0; width: 100%; margin: auto; float: none !important; }
+		#contentCntr #info .col-sm-5 { background: #2ed271; }
+		.over_green { display: none; } 
+		.fitblockBox, .feedbackBox { padding: 20px 0; }
+		.titleBox p { width: 100%; }
+		.titleBox .btn-default { margin-top: 10px; }
+		#coaches .textBox { float: none !important; width: 100%; padding: 20px 0; }
+		#contentCntr .work_shop .arrow { display: none; }
+		.workshopBox { padding: 20px 0; width: 100%; }
+		#contentCntr .work_shop {background: #2ed271; height: auto; }
+		.workshopBox address { float: none; width: 100%; }
+		.workshopBox .topgap { padding-top: 0; }
+		#contentCntr .work_shop .work_img { display:none; }
+		.fitblockBox .block { margin-bottom: 20px; }
+		.feedbackBox .block { margin-bottom: 20px; }
+		.linkBox img { margin: 0 0px 0 0; width: 110px; }
+		.linkBox div.pull-left { padding: 40px 0 0 0; margin-left:0; width: 175px; }
+		.linkBox div.pull-left.leftside { padding: 0; width: 100%; }
+		.linkBox div.pull-left.leftside address { padding-right: 20px; float: left; }
+		.footerBox li { float: left; width: 100%; }
+		.footerBox span { float: left !important; }
+		.numBox address strong { display:block; }
+		.fitblockBox .text { padding: 0 10px; }
+		.stayfitBox .image { float: none !important; }
+		.stayfitBox .well .pull-right { float: none !important; }		
+.mob_auto { margin: 5px auto; }		
+		#contentCntr #info.full_blue .sessionBox { padding-top: 20px; }
+		.full_blue .textBox { padding-bottom: 10px; overflow: hidden; }
+		.stayfitBox .block { width: 100%; } 
+		.listBox .block { margin-left: 0; }
+		.addressBox { padding-left: 0; }
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+		.fitblockBox .text { background-size: cover; }
+		.fitblockBox .img-responsive { width: 100%; }
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+.numBox address { padding-top: 16px; }	
+	}	
+	
